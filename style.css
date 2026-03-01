@@ -1,0 +1,226 @@
+body{
+font-family: Arial;
+margin:0;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#1591b0a0;
+color:white;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+.nav-links a{
+color:rgb(250, 243, 243);
+text-decoration:none;
+}
+
+.hero{
+padding:100px;
+text-align:center;
+background:#f1b056;
+}
+
+.section{
+padding:60px;
+}
+
+.gray{
+background:#ba327a;
+}
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:rgb(44, 160, 118);
+padding:20px;
+flex:1;
+border:1px solid #ddd;
+}
+
+.btn{
+background:#7113be;
+color:rgb(255, 254, 251);
+padding:12px 20px;
+text-decoration:none;
+display:inline-block;
+margin-top:10px;
+}
+
+footer{
+background:#1591b0a0;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+form input, form textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+.about-section {
+
+padding: 60px 20px;
+background: linear-gradient(to right, #fff7e6, #ffe0b3);
+
+}
+
+.container {
+
+max-width: 1000px;
+margin: auto;
+
+}
+
+.about-section h1 {
+
+color: #cc6600;
+margin-bottom: 20px;
+
+}
+
+.about-section p {
+
+font-size: 18px;
+line-height: 1.6;
+
+}
+
+.about-list {
+
+margin-top: 20px;
+
+}
+
+.about-list li {
+
+margin-bottom: 10px;
+
+}
+
+.social-section {
+
+text-align: center;
+padding: 40px;
+background: #fff;
+
+}
+
+.social-logo {
+
+width: 40px;
+margin: 10px;
+cursor: pointer;
+
+}
+
+.company-logo {
+
+height: 40px;
+margin-right: 10px;
+vertical-align: middle;
+
+}
+
+.logo {
+
+display: flex;
+align-items: center;
+gap: 10px;
+
+}
+
+.container {
+max-width: 1000px;
+margin: auto;
+padding: 20px;
+}
+
+.section {
+padding: 60px 20px;
+background: #fff7e6;
+}
+
+.company-logo {
+height: 40px;
+margin-right: 10px;
+}
+
+.contact-section {
+
+background: #fff7e6;
+padding: 60px 20px;
+
+}
+
+.contact-info {
+
+margin: 30px 0;
+font-size: 18px;
+
+}
+
+.social-links {
+
+margin: 30px 0;
+
+}
+
+.social-links a {
+
+display: inline-flex;
+align-items: center;
+margin-right: 20px;
+text-decoration: none;
+color: #333;
+font-weight: 600;
+
+}
+
+.social-icon {
+
+width: 24px;
+margin-right: 8px;
+
+}
+
+.contact-form input,
+.contact-form textarea {
+
+width: 100%;
+padding: 12px;
+margin: 10px 0;
+border: 1px solid #ddd;
+border-radius: 5px;
+
+}
+
+.contact-form button {
+
+background: #f59e0b;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+.contact-form button:hover {
+
+background: #ea580c;
+
+}
